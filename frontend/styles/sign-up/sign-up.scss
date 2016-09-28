@@ -1,0 +1,50 @@
+	.sign-up {
+		height: 286px;
+		width: 100%;
+		background: rgb(240,240,240);
+		.container {
+			background : inherit; 
+			display: flex;
+			
+			.sign-up-content {
+				width : 400px;
+				height : 150px;
+				background: inherit;
+				margin: 64px auto auto;
+				position: relative;
+				border-bottom: 1px solid black;
+				
+				h2 {
+					padding: 0 10px;
+					letter-spacing: 0.5px;
+				}
+				
+				input {
+					width: 100%; 
+					border: rgb(240,240,240);
+					background: rgb(240,240,240);
+					position: absolute; 
+					bottom: 1px;
+					width: 80%;
+					
+					&::placeholder {
+						font-size: 14px;
+						padding: 0 4px;
+						color: rgb(98, 98, 98);
+						background: rgb(240,240,240);
+					}
+				}
+				
+				.send {
+					position: absolute; 
+					border: rgb(240,240,240);
+					background: url(../img/sign-up/11send.png) no-repeat;
+					background-size: contain;
+					width: 30px;
+					height: 16px;
+					bottom: 24px;
+					right: 0px;
+				}
+			}
+		}
+	}

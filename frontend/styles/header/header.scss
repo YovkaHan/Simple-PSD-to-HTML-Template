@@ -1,0 +1,130 @@
+$margin_left_nav_li: 100px;
+$padding_left_li_a: 10px;
+$padding_right_navbar_brand: 15px;
+
+$header_class_mt_1199: 57px;
+$header_class_mt_980: 47px;
+$header_class_mt_767: 37px;
+$header_class_mt_450: 30px;
+
+header.header-class {
+	margin-top: 67px;
+	
+	.navbar-transparent {
+		background-color: transparent;
+		border-color: transparent;
+		margin-bottom: 0px;
+		
+		.header-content {
+			margin-left: auto;
+			.navbar-brand {
+				padding-right : $padding_right_navbar_brand;
+				.logo {
+					text-transform: uppercase;
+					font-family: InconsolataRegular;
+					font-size: 30px;
+					letter-spacing: 4px;
+					color: black;
+				}
+			}
+			.navbar-collapse{
+				padding-right: 0;
+				border: 0;
+				
+				.navbar-nav {
+					float: right;
+					margin-left: 0px !important;
+				li {
+					text-transform: uppercase;
+					
+					a {
+						padding: 10px;
+						padding-left: $padding_left_li_a;
+						margin-top: 5px;
+						font-size: 15px;
+						color: rgb(98,98,98);
+						
+						&:hover {
+							color: black;
+							text-decoration: underline ;
+						}
+					}
+				}
+				.li-1 , .li-2{
+					margin-left: 120px - $padding_left_li_a * 2;
+				}
+				.li-3 {
+					margin-left: 100px - $padding_left_li_a * 2;
+				}
+				.li-4 {
+					margin-left: 90px - $padding_left_li_a * 2;
+				}
+			}
+			}
+	    }
+	}
+}
+@media only screen and (min-width: 1200px) {
+				header.header-class {
+				
+					.navbar-transparent {
+					
+						div.header-content {
+							margin-right : auto !important;
+							
+					}
+				}
+			}
+			}
+@media only screen and (min-width: 981px) and (max-width: 1199px) {
+				header.header-class {
+					margin-top: 57px !important;
+					
+					.navbar-transparent {
+					
+						div.header-content {
+							margin-right : auto !important;
+							
+					}
+				}
+				}	
+			}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+				header.header-class {
+					margin-top: 47px !important;
+				}
+			}
+@media only screen and (max-width: 767px) {
+				header.header-class {
+					margin-top: 37px !important;
+					.navbar-header {
+						margin-left: 0;
+						margin-right: 0;
+						
+						.navbar-toggle {
+							margin-right: 20px;
+						}
+					}
+					.navbar-nav {
+						float: left  !important;
+						
+						li {
+							margin-left: 10px !important;
+						}
+					}
+				}
+			}
+@media only screen and (max-width: 450px) {
+				header.header-class {
+					margin-top: 30px !important;
+					
+					.navbar-header {
+						margin-left: 0;
+						margin-right: 0;
+						
+						.navbar-toggle {
+							margin-right: 10px;
+						}
+					}
+			    }
+}

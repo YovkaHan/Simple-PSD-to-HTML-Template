@@ -1,0 +1,37 @@
+body {
+	font-family: PlayfairDisplayRegular, Ubuntu-Regular, sans-serif;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 92%
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		padding-left: 0px;
+		padding-right: 0px;
+		width: 1070px;
+	}
+}
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    .container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.container {
+		margin-left: 20px !important;
+		margin-right: 20px !important;
+	}
+}

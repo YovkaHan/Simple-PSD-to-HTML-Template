@@ -1,0 +1,90 @@
+//fonts
+@font-face {
+  font-family: PlayfairDisplay-Black;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay-BlackItalic; 
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay-BoldItalic;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+}
+
+@font-face {
+      font-family: 'PlayfairDisplayRegular';
+		src: url('../fonts/Playfair_Display/PlayfairDisplayRegular.eot');
+		src: url('../fonts/Playfair_Display/PlayfairDisplayRegular.eot') format('embedded-opentype'),
+         url('../fonts/Playfair_Display/PlayfairDisplayRegular.woff2') format('woff2'),
+         url('../fonts/Playfair_Display/PlayfairDisplayRegular.woff') format('woff'),
+         url('../fonts/Playfair_Display/PlayfairDisplayRegular.ttf') format('truetype'),
+         url('../fonts/Playfair_Display/PlayfairDisplayRegular.svg#PlayfairDisplayRegular') format('svg');
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-BoldItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Italic;
+  src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-LightItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-MediumItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'InconsolataRegular';
+    src: url('../fonts/Inconsolata/InconsolataRegular.eot');
+    src: url('../fonts/Inconsolata/InconsolataRegular.eot') format('embedded-opentype'),
+         url('../fonts/Inconsolata/InconsolataRegular.woff2') format('woff2'),
+         url('../fonts/Inconsolata/InconsolataRegular.woff') format('woff'),
+         url('../fonts/Inconsolata/InconsolataRegular.ttf') format('truetype'),
+         url('../fonts/Inconsolata/InconsolataRegular.svg#InconsolataRegular') format('svg');
+}
+
+@font-face {
+  font-family: Inconsolata-Bold;
+  src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf);
+}

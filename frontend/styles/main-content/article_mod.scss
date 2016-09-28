@@ -1,0 +1,18 @@
+.myRow {
+	.article_mod_to_920 {
+		
+	}
+}
+
+
+.myRow {
+	.article_mod_below_920 {
+		max-width : 420px;
+		margin : 0 auto !important;
+		display : block !important;
+		
+		.img {
+			background-size: cover;
+		}
+	}
+}
