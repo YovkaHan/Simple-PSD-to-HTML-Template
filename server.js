@@ -6,7 +6,7 @@ var app = require('express')();
 var url = require('url');
 var http = require('http').Server(app);
 
-http.listen(4000, '192.168.0.101');
+http.listen(4000, 'localhost');
 
 app.use('/', express.static(__dirname + '/public'));
 
