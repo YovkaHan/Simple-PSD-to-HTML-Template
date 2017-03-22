@@ -1,9 +1,10 @@
 (function($){
 	$(document).on('ready', function() {
 
-		var maxWidth = 792;
-		var minWidth = 260;
-		var articles = $('.article_mod');
+	
+		var maxWidth = 791;
+		var minWidth = 420;
+		var articles = $('.j-grid-s');
 		var articlesImg;
 		var my_Row = articles.parent();
 		var container = my_Row.parent();
@@ -17,6 +18,14 @@
 		}
 
 		$( window ).resize(function() {
+			var articles = $('.j-grid-s');
+			var articlesImg;
+			var my_Row = articles.parent();
+			var container = my_Row.parent();
+			
+			console.log("Resized");
+			console.log($(container).width());
+			console.log($(container).width());
 			if($(container).width() < maxWidth && $(container).width() > minWidth) {
 				setups();
 				//resizeArticles();			
@@ -28,7 +37,7 @@
 		function setups() {
 			console.log('DISPLAY BLOCK');
 			$(my_Row).css({'display' : 'block'});
-			articles = $('.article_mod_below_920');
+			articles = $('.j-grid-s');
 			articles.css({'width' : '100%'})
 			articlesImg = articles.find('.img');
 			my_Row = articles.parent();
