@@ -1,101 +1,56 @@
-body {
-  font-family: PlayfairDisplayRegular, Ubuntu-Regular, sans-serif; }
+.footer-class {
+  background: #f0f0f0; }
+  .footer-class .footer-content {
+    height: 96px;
+    background: inherit; }
+    .footer-class .footer-content .terms-conditions-privacy {
+      width: 334px;
+      height: inherit;
+      background: inherit;
+      display: inline-block;
+      float: left;
+      margin-right: 10px;
+      padding-top: 38px; }
+    .footer-class .footer-content .follow-social {
+      width: 334px;
+      height: inherit;
+      background: inherit;
+      display: inline-block;
+      float: right;
+      margin-left: 0 auto; }
+      .footer-class .footer-content .follow-social .follow-social-content {
+        margin: 38px 0;
+        display: inline-block;
+        float: right; }
+        .footer-class .footer-content .follow-social .follow-social-content .follow {
+          margin: 0 30px 0 0;
+          color: black; }
+          .footer-class .footer-content .follow-social .follow-social-content .follow:hover {
+            cursor: pointer;
+            text-decoration: underline; }
+        .footer-class .footer-content .follow-social .follow-social-content .btn {
+          margin: 0 5px 0;
+          padding: 10px 10px 5px; }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 0px;
-  padding-right: 0px;
-  width: 92%; }
+#img8 {
+  background: url(../img/footer/8f.png) no-repeat; }
 
-@media only screen and (min-width: 1200px) {
-  .container {
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 1070px; } }
+#img9 {
+  background: url(../img/footer/9tw.png) no-repeat; }
 
-@media only screen and (min-width: 769px) and (max-width: 1000px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto; } }
+#img10 {
+  background: url(../img/footer/10ins.png) no-repeat; }
 
-@media only screen and (min-width: 451px) and (max-width: 768px) {
-  .container {
-    margin-left: auto;
-    margin-right: auto; } }
+@media only screen and (max-width: 768px) {
+  .terms-conditions-privacy {
+    width: auto !important; }
+  .follow-social {
+    width: auto !important; } }
 
-@media only screen and (max-width: 450px) {
-  .container {
-    margin-left: 20px !important;
-    margin-right: 20px !important; } }
-
-@font-face {
-  font-family: PlayfairDisplay-Black;
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf); }
-
-@font-face {
-  font-family: PlayfairDisplay-BlackItalic;
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf); }
-
-@font-face {
-  font-family: PlayfairDisplay-Bold;
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf); }
-
-@font-face {
-  font-family: PlayfairDisplay-BoldItalic;
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf); }
-
-@font-face {
-  font-family: PlayfairDisplay-Italic;
-  src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf); }
-
-@font-face {
-  font-family: 'PlayfairDisplayRegular';
-  src: url("../fonts/Playfair_Display/PlayfairDisplayRegular.eot");
-  src: url("../fonts/Playfair_Display/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
-
-@font-face {
-  font-family: Ubuntu-Bold;
-  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf); }
-
-@font-face {
-  font-family: Ubuntu-BoldItalic;
-  src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf); }
-
-@font-face {
-  font-family: Ubuntu-Italic;
-  src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf); }
-
-@font-face {
-  font-family: Ubuntu-Light;
-  src: url(../fonts/Ubuntu/Ubuntu-Light.ttf); }
-
-@font-face {
-  font-family: Ubuntu-LightItalic;
-  src: url(../fonts/Ubuntu/Ubuntu-LightItalic.ttf); }
-
-@font-face {
-  font-family: Ubuntu-Medium;
-  src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf); }
-
-@font-face {
-  font-family: Ubuntu-MediumItalic;
-  src: url(../fonts/Ubuntu/Ubuntu-MediumItalic.ttf); }
-
-@font-face {
-  font-family: Ubuntu-Regular;
-  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf); }
-
-@font-face {
-  font-family: 'InconsolataRegular';
-  src: url("../fonts/Inconsolata/InconsolataRegular.eot");
-  src: url("../fonts/Inconsolata/InconsolataRegular.eot") format("embedded-opentype"), url("../fonts/Inconsolata/InconsolataRegular.woff2") format("woff2"), url("../fonts/Inconsolata/InconsolataRegular.woff") format("woff"), url("../fonts/Inconsolata/InconsolataRegular.ttf") format("truetype"), url("../fonts/Inconsolata/InconsolataRegular.svg#InconsolataRegular") format("svg"); }
-
-@font-face {
-  font-family: Inconsolata-Bold;
-  src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf); }
+@media only screen and (max-width: 451px) {
+  .footer-content {
+    display: inline-block;
+    height: auto !important; } }
 
 header.header-class {
   margin-top: 67px; }
@@ -173,59 +128,64 @@ header.header-class {
       header.header-class .navbar-header .navbar-toggle {
         margin-right: 10px; } }
 
-.footer-class {
+.j-grid-xl, .j-grid-l, .j-grid-m {
+  margin-right: 30px;
+  margin-left: 30px; }
+
+.j-grid-s, .j-grid-xs {
+  margin-right: 0;
+  margin-left: 0; }
+
+.sign-up {
+  height: 286px;
+  width: 100%;
   background: #f0f0f0; }
-  .footer-class .footer-content {
-    height: 96px;
-    background: inherit; }
-    .footer-class .footer-content .terms-conditions-privacy {
-      width: 334px;
-      height: inherit;
+  .sign-up .container {
+    background: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .sign-up .container .sign-up-content {
+      width: 400px;
+      height: 150px;
       background: inherit;
-      display: inline-block;
-      float: left;
-      margin-right: 10px;
-      padding-top: 38px; }
-    .footer-class .footer-content .follow-social {
-      width: 334px;
-      height: inherit;
-      background: inherit;
-      display: inline-block;
-      float: right;
-      margin-left: 0 auto; }
-      .footer-class .footer-content .follow-social .follow-social-content {
-        margin: 38px 0;
-        display: inline-block;
-        float: right; }
-        .footer-class .footer-content .follow-social .follow-social-content .follow {
-          margin: 0 30px 0 0;
-          color: black; }
-          .footer-class .footer-content .follow-social .follow-social-content .follow:hover {
-            cursor: pointer;
-            text-decoration: underline; }
-        .footer-class .footer-content .follow-social .follow-social-content .btn {
-          margin: 0 5px 0;
-          padding: 10px 10px 5px; }
-
-#img8 {
-  background: url(../img/footer/8f.png) no-repeat; }
-
-#img9 {
-  background: url(../img/footer/9tw.png) no-repeat; }
-
-#img10 {
-  background: url(../img/footer/10ins.png) no-repeat; }
-
-@media only screen and (max-width: 768px) {
-  .terms-conditions-privacy {
-    width: auto !important; }
-  .follow-social {
-    width: auto !important; } }
-
-@media only screen and (max-width: 451px) {
-  .footer-content {
-    display: inline-block;
-    height: auto !important; } }
+      margin: 64px auto auto;
+      position: relative;
+      border-bottom: 1px solid black; }
+      .sign-up .container .sign-up-content h2 {
+        padding: 0 10px;
+        letter-spacing: 0.5px; }
+      .sign-up .container .sign-up-content input {
+        width: 100%;
+        border: #f0f0f0;
+        background: #f0f0f0;
+        position: absolute;
+        bottom: 1px;
+        width: 80%; }
+        .sign-up .container .sign-up-content input::-webkit-input-placeholder {
+          font-size: 14px;
+          padding: 0 4px;
+          color: #626262;
+          background: #f0f0f0; }
+        .sign-up .container .sign-up-content input:-ms-input-placeholder {
+          font-size: 14px;
+          padding: 0 4px;
+          color: #626262;
+          background: #f0f0f0; }
+        .sign-up .container .sign-up-content input::placeholder {
+          font-size: 14px;
+          padding: 0 4px;
+          color: #626262;
+          background: #f0f0f0; }
+      .sign-up .container .sign-up-content .send {
+        position: absolute;
+        border: #f0f0f0;
+        background: url(../img/sign-up/11send.png) no-repeat;
+        background-size: contain;
+        width: 30px;
+        height: 16px;
+        bottom: 24px;
+        right: 0px; }
 
 .myRow .article_mod_below_920 {
   max-width: 420px;
@@ -497,53 +457,101 @@ header.header-class {
   .main-content .load-more {
     padding: 48px; } }
 
-.sign-up {
-  height: 286px;
-  width: 100%;
-  background: #f0f0f0; }
-  .sign-up .container {
-    background: inherit;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .sign-up .container .sign-up-content {
-      width: 400px;
-      height: 150px;
-      background: inherit;
-      margin: 64px auto auto;
-      position: relative;
-      border-bottom: 1px solid black; }
-      .sign-up .container .sign-up-content h2 {
-        padding: 0 10px;
-        letter-spacing: 0.5px; }
-      .sign-up .container .sign-up-content input {
-        width: 100%;
-        border: #f0f0f0;
-        background: #f0f0f0;
-        position: absolute;
-        bottom: 1px;
-        width: 80%; }
-        .sign-up .container .sign-up-content input::-webkit-input-placeholder {
-          font-size: 14px;
-          padding: 0 4px;
-          color: #626262;
-          background: #f0f0f0; }
-        .sign-up .container .sign-up-content input:-ms-input-placeholder {
-          font-size: 14px;
-          padding: 0 4px;
-          color: #626262;
-          background: #f0f0f0; }
-        .sign-up .container .sign-up-content input::placeholder {
-          font-size: 14px;
-          padding: 0 4px;
-          color: #626262;
-          background: #f0f0f0; }
-      .sign-up .container .sign-up-content .send {
-        position: absolute;
-        border: #f0f0f0;
-        background: url(../img/sign-up/11send.png) no-repeat;
-        background-size: contain;
-        width: 30px;
-        height: 16px;
-        bottom: 24px;
-        right: 0px; }
+body {
+  font-family: PlayfairDisplayRegular, Ubuntu-Regular, sans-serif; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 92%; }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 1070px; } }
+
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media only screen and (min-width: 451px) and (max-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto; } }
+
+@media only screen and (max-width: 450px) {
+  .container {
+    margin-left: 20px !important;
+    margin-right: 20px !important; } }
+
+@font-face {
+  font-family: PlayfairDisplay-Black;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf); }
+
+@font-face {
+  font-family: PlayfairDisplay-BlackItalic;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf); }
+
+@font-face {
+  font-family: PlayfairDisplay-Bold;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf); }
+
+@font-face {
+  font-family: PlayfairDisplay-BoldItalic;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf); }
+
+@font-face {
+  font-family: PlayfairDisplay-Italic;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf); }
+
+@font-face {
+  font-family: 'PlayfairDisplayRegular';
+  src: url("../fonts/Playfair_Display/PlayfairDisplayRegular.eot");
+  src: url("../fonts/Playfair_Display/PlayfairDisplayRegular.eot") format("embedded-opentype"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.woff2") format("woff2"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/Playfair_Display/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../fonts/Ubuntu/Ubuntu-Bold.ttf); }
+
+@font-face {
+  font-family: Ubuntu-BoldItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-BoldItalic.ttf); }
+
+@font-face {
+  font-family: Ubuntu-Italic;
+  src: url(../fonts/Ubuntu/Ubuntu-Italic.ttf); }
+
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(../fonts/Ubuntu/Ubuntu-Light.ttf); }
+
+@font-face {
+  font-family: Ubuntu-LightItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-LightItalic.ttf); }
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../fonts/Ubuntu/Ubuntu-Medium.ttf); }
+
+@font-face {
+  font-family: Ubuntu-MediumItalic;
+  src: url(../fonts/Ubuntu/Ubuntu-MediumItalic.ttf); }
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf); }
+
+@font-face {
+  font-family: 'InconsolataRegular';
+  src: url("../fonts/Inconsolata/InconsolataRegular.eot");
+  src: url("../fonts/Inconsolata/InconsolataRegular.eot") format("embedded-opentype"), url("../fonts/Inconsolata/InconsolataRegular.woff2") format("woff2"), url("../fonts/Inconsolata/InconsolataRegular.woff") format("woff"), url("../fonts/Inconsolata/InconsolataRegular.ttf") format("truetype"), url("../fonts/Inconsolata/InconsolataRegular.svg#InconsolataRegular") format("svg"); }
+
+@font-face {
+  font-family: Inconsolata-Bold;
+  src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf); }
