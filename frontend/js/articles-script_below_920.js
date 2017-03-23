@@ -1,4 +1,4 @@
-(function($){
+/*(function($){
 	$(document).on('ready', function() {
 
 	
@@ -38,21 +38,21 @@
 			console.log('DISPLAY BLOCK');
 			$(my_Row).css({'display' : 'block'});
 			articles = $('.j-grid-s');
-			articles.css({'width' : '100%'})
+			articles.css({'width' : '100%'});
 			articlesImg = articles.find('.img');
 			my_Row = articles.parent();
 			container = my_Row.parent();
 		}
 	
-		/*function resizeArticles() {
-			if(articles.css) {
-				articles.each(function(i,elem) {
-					$(elem).css({
-						'width' : $(container).width()*proportionImg
-					});
-				})
-			}
-		}*/
+		//function resizeArticles() {
+		//	if(articles.css) {
+		//		articles.each(function(i,elem) {
+		//			$(elem).css({
+		//				'width' : $(container).width()*proportionImg
+		//			});
+		//		})
+		//	}
+		//}
 		
 		function resizeImg() {
 				articlesImg.each(function(i,elem) {
@@ -71,4 +71,4 @@
 		}
 			
 	});
-})(jQuery);
+})(jQuery);*/

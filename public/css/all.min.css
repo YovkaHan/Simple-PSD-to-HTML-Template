@@ -97,60 +97,6 @@ body {
   font-family: Inconsolata-Bold;
   src: url(../fonts/Inconsolata/Inconsolata-Bold.ttf); }
 
-.footer-class {
-  background: #f0f0f0; }
-  .footer-class .footer-content {
-    height: 96px;
-    background: inherit; }
-    .footer-class .footer-content .terms-conditions-privacy {
-      width: 334px;
-      height: inherit;
-      background: inherit;
-      display: inline-block;
-      float: left;
-      margin-right: 10px;
-      padding-top: 38px; }
-    .footer-class .footer-content .follow-social {
-      width: 334px;
-      height: inherit;
-      background: inherit;
-      display: inline-block;
-      float: right;
-      margin-left: 0 auto; }
-      .footer-class .footer-content .follow-social .follow-social-content {
-        margin: 38px 0;
-        display: inline-block;
-        float: right; }
-        .footer-class .footer-content .follow-social .follow-social-content .follow {
-          margin: 0 30px 0 0;
-          color: black; }
-          .footer-class .footer-content .follow-social .follow-social-content .follow:hover {
-            cursor: pointer;
-            text-decoration: underline; }
-        .footer-class .footer-content .follow-social .follow-social-content .btn {
-          margin: 0 5px 0;
-          padding: 10px 10px 5px; }
-
-#img8 {
-  background: url(../img/footer/8f.png) no-repeat; }
-
-#img9 {
-  background: url(../img/footer/9tw.png) no-repeat; }
-
-#img10 {
-  background: url(../img/footer/10ins.png) no-repeat; }
-
-@media only screen and (max-width: 768px) {
-  .terms-conditions-privacy {
-    width: auto !important; }
-  .follow-social {
-    width: auto !important; } }
-
-@media only screen and (max-width: 451px) {
-  .footer-content {
-    display: inline-block;
-    height: auto !important; } }
-
 header.header-class {
   margin-top: 67px; }
   header.header-class .navbar-transparent {
@@ -226,6 +172,60 @@ header.header-class {
       margin-right: 0; }
       header.header-class .navbar-header .navbar-toggle {
         margin-right: 10px; } }
+
+.footer-class {
+  background: #f0f0f0; }
+  .footer-class .footer-content {
+    height: 96px;
+    background: inherit; }
+    .footer-class .footer-content .terms-conditions-privacy {
+      width: 334px;
+      height: inherit;
+      background: inherit;
+      display: inline-block;
+      float: left;
+      margin-right: 10px;
+      padding-top: 38px; }
+    .footer-class .footer-content .follow-social {
+      width: 334px;
+      height: inherit;
+      background: inherit;
+      display: inline-block;
+      float: right;
+      margin-left: 0 auto; }
+      .footer-class .footer-content .follow-social .follow-social-content {
+        margin: 38px 0;
+        display: inline-block;
+        float: right; }
+        .footer-class .footer-content .follow-social .follow-social-content .follow {
+          margin: 0 30px 0 0;
+          color: black; }
+          .footer-class .footer-content .follow-social .follow-social-content .follow:hover {
+            cursor: pointer;
+            text-decoration: underline; }
+        .footer-class .footer-content .follow-social .follow-social-content .btn {
+          margin: 0 5px 0;
+          padding: 10px 10px 5px; }
+
+#img8 {
+  background: url(../img/footer/8f.png) no-repeat; }
+
+#img9 {
+  background: url(../img/footer/9tw.png) no-repeat; }
+
+#img10 {
+  background: url(../img/footer/10ins.png) no-repeat; }
+
+@media only screen and (max-width: 768px) {
+  .terms-conditions-privacy {
+    width: auto !important; }
+  .follow-social {
+    width: auto !important; } }
+
+@media only screen and (max-width: 451px) {
+  .footer-content {
+    display: inline-block;
+    height: auto !important; } }
 
 .myRow .article_mod_below_920 {
   max-width: 420px;
@@ -547,155 +547,3 @@ header.header-class {
         height: 16px;
         bottom: 24px;
         right: 0px; }
-
-header.header-class {
-  margin-top: 67px; }
-  header.header-class .navbar-transparent {
-    background-color: transparent;
-    border-color: transparent;
-    margin-bottom: 0px; }
-    header.header-class .navbar-transparent .header-content {
-      margin-left: auto; }
-      header.header-class .navbar-transparent .header-content .navbar-brand {
-        padding-right: 15px; }
-        header.header-class .navbar-transparent .header-content .navbar-brand .logo {
-          text-transform: uppercase;
-          font-family: InconsolataRegular;
-          font-size: 30px;
-          letter-spacing: 4px;
-          color: black; }
-      header.header-class .navbar-transparent .header-content .navbar-collapse {
-        padding-right: 0;
-        border: 0; }
-        header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav {
-          float: right;
-          margin-left: 0px !important; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li {
-            text-transform: uppercase; }
-            header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li a {
-              padding: 10px;
-              padding-left: 10px;
-              margin-top: 5px;
-              font-size: 15px;
-              color: #626262; }
-              header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li a:hover {
-                color: black;
-                text-decoration: underline; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-1, header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-2 {
-            margin-left: 100px; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-3 {
-            margin-left: 80px; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-4 {
-            margin-left: 70px; }
-
-@media only screen and (min-width: 1200px) {
-  header.header-class .navbar-transparent div.header-content {
-    margin-right: auto !important; } }
-
-@media only screen and (min-width: 981px) and (max-width: 1199px) {
-  header.header-class {
-    margin-top: 57px !important; }
-    header.header-class .navbar-transparent div.header-content {
-      margin-right: auto !important; } }
-
-@media only screen and (min-width: 768px) and (max-width: 980px) {
-  header.header-class {
-    margin-top: 47px !important; } }
-
-@media only screen and (max-width: 767px) {
-  header.header-class {
-    margin-top: 37px !important; }
-    header.header-class .navbar-header {
-      margin-left: 0;
-      margin-right: 0; }
-      header.header-class .navbar-header .navbar-toggle {
-        margin-right: 20px; }
-    header.header-class .navbar-nav {
-      float: left  !important; }
-      header.header-class .navbar-nav li {
-        margin-left: 10px !important; } }
-
-@media only screen and (max-width: 450px) {
-  header.header-class {
-    margin-top: 30px !important; }
-    header.header-class .navbar-header {
-      margin-left: 0;
-      margin-right: 0; }
-      header.header-class .navbar-header .navbar-toggle {
-        margin-right: 10px; } }
-
-header.header-class {
-  margin-top: 67px; }
-  header.header-class .navbar-transparent {
-    background-color: transparent;
-    border-color: transparent;
-    margin-bottom: 0px; }
-    header.header-class .navbar-transparent .header-content {
-      margin-left: auto; }
-      header.header-class .navbar-transparent .header-content .navbar-brand {
-        padding-right: 15px; }
-        header.header-class .navbar-transparent .header-content .navbar-brand .logo {
-          text-transform: uppercase;
-          font-family: InconsolataRegular;
-          font-size: 30px;
-          letter-spacing: 4px;
-          color: black; }
-      header.header-class .navbar-transparent .header-content .navbar-collapse {
-        padding-right: 0;
-        border: 0; }
-        header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav {
-          float: right;
-          margin-left: 0px !important; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li {
-            text-transform: uppercase; }
-            header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li a {
-              padding: 10px;
-              padding-left: 10px;
-              margin-top: 5px;
-              font-size: 15px;
-              color: #626262; }
-              header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav li a:hover {
-                color: black;
-                text-decoration: underline; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-1, header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-2 {
-            margin-left: 100px; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-3 {
-            margin-left: 80px; }
-          header.header-class .navbar-transparent .header-content .navbar-collapse .navbar-nav .li-4 {
-            margin-left: 70px; }
-
-@media only screen and (min-width: 1200px) {
-  header.header-class .navbar-transparent div.header-content {
-    margin-right: auto !important; } }
-
-@media only screen and (min-width: 981px) and (max-width: 1199px) {
-  header.header-class {
-    margin-top: 57px !important; }
-    header.header-class .navbar-transparent div.header-content {
-      margin-right: auto !important; } }
-
-@media only screen and (min-width: 768px) and (max-width: 980px) {
-  header.header-class {
-    margin-top: 47px !important; } }
-
-@media only screen and (max-width: 767px) {
-  header.header-class {
-    margin-top: 37px !important; }
-    header.header-class .navbar-header {
-      margin-left: 0;
-      margin-right: 0; }
-      header.header-class .navbar-header .navbar-toggle {
-        margin-right: 20px; }
-    header.header-class .navbar-nav {
-      float: left  !important; }
-      header.header-class .navbar-nav li {
-        margin-left: 10px !important; } }
-
-@media only screen and (max-width: 450px) {
-  header.header-class {
-    margin-top: 30px !important; }
-    header.header-class .navbar-header {
-      margin-left: 0;
-      margin-right: 0; }
-      header.header-class .navbar-header .navbar-toggle {
-        margin-right: 10px; } }

@@ -1,4 +1,4 @@
-(function($){
+/*(function($){
 	
 	$(document).on('ready', function() {
 
@@ -32,7 +32,7 @@
 		
 				
 		function setups() {
-			$(my_Row).css({'display' : 'flex'});
+			$(my_Row).css({'display' : 'flex'});                     // 
 			articles = $('.j-grid-m');
 			articlesImg = articles.find('.img');
 			my_Row = articles.parent();
@@ -68,4 +68,4 @@
 		}
 			
 	});
-})(jQuery);
+})(jQuery);*/
